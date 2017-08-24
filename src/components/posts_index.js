@@ -25,11 +25,11 @@ class PostsIndex extends Component {
     return (
       <div>
         <div className="text-xs-right">
-          <Link className="btn btn-primary add-post" to="/posts/new">
+          <Link className="btn btn-primary btn-right" to="/posts/new">
             Add a Post
           </Link>
         </div>
-        <h3>Posts</h3>
+        <h3>BlogIT</h3>
         <ul className="list-group">
           {this.renderPosts()}
         </ul>

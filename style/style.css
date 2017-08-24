@@ -4,9 +4,19 @@ form a {
 .container {
   padding:20px;
 }
-.add-post{
+.btn-right{
   float:right;
 }
 .list-group{
   margin-top: 20px;
+}
+.post-content {
+  background: #f7f7f7;
+  margin-top: 20px;
+  padding: 10px;
+}
+.post-header {
+  margin-top: 20px;
+  padding: 10px;
+  border-bottom: 1px solid #ddd
 }
